@@ -19,3 +19,11 @@ models:
         tests:
           - unique
           - not_null
+  - name: my_other_dbt_model
+    description: "testing something new"
+    columns:
+      - name: str
+        description: "bla"
+        tests: 
+          - unique
+          - not_null
